@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mcexpansions",
+  "version": "${version}",
+  "name": "MCExpansions",
+  "description": "A bunch of additions to Minecraft!",
+  "authors": [
+    "TheDevNate"
+  ],
+  "contact": {
+    "website": "mlxoa.com",
+    "repo": "https://github.com/natha/mcexpansions"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mcexpansions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.thedevnate.mcexpansions.client.MCExpansionsClient"
+    ],
+    "main": [
+      "com.thedevnate.mcexpansions.MCExpansions"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
